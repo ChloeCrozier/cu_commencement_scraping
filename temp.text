@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <!-- inj yui3-seed: -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/yui/3.6.0/yui/yui-min.js" type="text/javascript">
+  </script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript">
+  </script>
+  <!-- Adobe Analytics -->
+  <script src="https://assets.adobedtm.com/4a848ae9611a/d0e96722185b/launch-d525bb0064d8.min.js" type="text/javascript">
+  </script>
+  <script src="/assets/nr_browser_production.js" type="text/javascript">
+  </script>
+  <!-- def.1 -->
+  <meta charset="utf-8"/>
+  <meta content="width=device-width" name="viewport"/>
+  <title>
+   "Clemson Commencement Program, August 1968" by Clemson University
+  </title>
+  <!-- FILE article_meta-tags.inc -->
+  <!-- FILE: /srv/sequoia/main/data/assets/site/article_meta-tags.inc -->
+  <meta content="Clemson Commencement Program, August 1968" itemprop="name"/>
+  <meta content="Clemson Commencement Program, August 1968" property="og:title"/>
+  <meta content="Clemson Commencement Program, August 1968" name="twitter:title"/>
+  <meta content="Clemson University" property="article:author"/>
+  <meta content="Clemson University" name="author"/>
+  <meta content="noodp, noydir" name="robots"/>
+  <meta content="By Clemson University, Published on 08/03/68" name="description"/>
+  <meta content="By Clemson University, Published on 08/03/68" itemprop="description"/>
+  <meta content="By Clemson University, Published on 08/03/68" name="twitter:description"/>
+  <meta content="By Clemson University, Published on 08/03/68" property="og:description"/>
+  <meta content="Clemson Commencement Programs" name="bepress_citation_series_title"/>
+  <meta content="University, Clemson" name="bepress_citation_author"/>
+  <meta content="Clemson Commencement Program, August 1968" name="bepress_citation_title"/>
+  <meta content="1968" name="bepress_citation_date"/>
+  <!-- FILE: /srv/sequoia/main/data/assets/site/ir_download_link.inc -->
+  <!-- FILE: /srv/sequoia/main/data/assets/site/article_meta-tags.inc (cont) -->
+  <meta content="https://open.clemson.edu/cgi/viewcontent.cgi?article=1000&amp;context=comm_programs" name="bepress_citation_pdf_url"/>
+  <meta content="https://open.clemson.edu/comm_programs/1" name="bepress_citation_abstract_html_url"/>
+  <meta content="Clemson University" name="bepress_citation_publisher"/>
+  <meta content="2016/6/7" name="bepress_citation_online_date"/>
+  <meta content="width=device-width" name="viewport"/>
+  <!-- Additional Twitter data -->
+  <meta content="summary" name="twitter:card"/>
+  <!-- Additional Open Graph data -->
+  <meta content="article" property="og:type"/>
+  <meta content="https://open.clemson.edu/comm_programs/1" property="og:url"/>
+  <meta content="Clemson OPEN" property="og:site_name"/>
+  <!-- Amplitude -->
+  <script type="text/javascript">
+   (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
+;r.type="text/javascript";r.async=true
+;r.src="https://cdn.amplitude.com/libs/amplitude-4.5.2-min.gz.js"
+;r.integrity="5ceGNbvkytO+PTI82JRl6GwJjVCw6k79kP4le5L5/m0Zny1P7taAF6YVvC4z4Pgj"
+;r.onload=function(){if(e.amplitude.runQueuedFunctions){
+e.amplitude.runQueuedFunctions()}else{
+console.log("[Amplitude] Error: could not load SDK")}}
+;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
+;function s(e,t){e.prototype[t]=function(){
+this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
+var o=function(){this._q=[];return this}
+;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
+;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
+;return this}
+;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
+;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
+;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","groupIdentify","logEventWithTimestamp","logEventWithGroups","setSessionId","resetSessionId"]
+;function v(e){function t(t){e[t]=function(){
+e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
+for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
+e=(!e||e.length===0?"$default_instance":e).toLowerCase()
+;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
+;e.amplitude=n})(window,document);
+
+amplitude.getInstance().init("1d890e80ea7a0ccc43c2b06438458f50");
+  </script>
+  <!-- FILE: article_meta-tags.inc (cont) -->
+  <meta content="1" name="bepress_is_article_cover_page"/>
+  <!-- sh.1 -->
+  <link href="/ir-style.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="/ir-custom.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../ir-custom.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="/ir-local.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="../ir-local.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="/ir-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="/assets/floatbox/floatbox.css" rel="stylesheet" type="text/css"/>
+  <link href="/recent.rss" rel="alternate" title="Site Feed" type="application/rss+xml"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <!--[if IE]>
+<link rel="stylesheet" href="/ir-ie.css" type="text/css" media="screen">
+<![endif]-->
+  <!-- JS  -->
+  <script src="/assets/jsUtilities.js" type="text/javascript">
+  </script>
+  <script src="/assets/footnoteLinks.js" type="text/javascript">
+  </script>
+  <script src="/assets/scripts/yui-init.pack.js" type="text/javascript">
+  </script>
+  <script src="/assets/scripts/bepress-init.debug.js" type="text/javascript">
+  </script>
+  <script src="/assets/scripts/JumpListYUI.pack.js" type="text/javascript">
+  </script>
+  <!-- end sh.1 -->
+  <script type="text/javascript">
+   var pageData = {"page":{"environment":"prod","productName":"bpdg","language":"en","name":"ir_series:article","businessUnit":"els:rp:st"},"visitor":{}};
+  </script>
+ </head>
+ <body id="geo-series">
+  <!-- FILE /srv/sequoia/main/data/open.clemson.edu/assets/header.pregen -->
+  <!-- FILE: /srv/sequoia/main/data/assets/site/mobile_nav.inc -->
+  <!--[if !IE]>-->
+  <script src="/assets/scripts/dc-mobile/dc-responsive-nav.js">
+  </script>
+  <header class="nav-down device-fixed-height" id="mobile-nav" style="visibility: hidden;">
+   <nav class="nav-collapse">
+    <ul>
+     <li class="menu-item active device-fixed-width">
+      <a data-scroll="" href="https://open.clemson.edu" title="Home">
+       Home
+      </a>
+     </li>
+     <li class="menu-item device-fixed-width">
+      <a data-scroll="" href="https://open.clemson.edu/do/search/advanced/" title="Search">
+       <i class="icon-search">
+       </i>
+       Search
+      </a>
+     </li>
+     <li class="menu-item device-fixed-width">
+      <a data-scroll="" href="https://open.clemson.edu/communities.html" title="Browse">
+       Browse All Collections
+      </a>
+     </li>
+     <li class="menu-item device-fixed-width">
+      <a data-scroll="" href="/cgi/myaccount.cgi?context=comm_programs" title="My Account">
+       My Account
+      </a>
+     </li>
+     <li class="menu-item device-fixed-width">
+      <a data-scroll="" href="https://open.clemson.edu/about.html" title="About">
+       About
+      </a>
+     </li>
+     <li class="menu-item device-fixed-width">
+      <a data-scroll="" href="https://network.bepress.com" title="Digital Commons Network">
+       <img alt="DC Network" height="16" src="/assets/md5images/8e240588cf8cd3a028768d4294acd7d3.png" style="vertical-align:top;" width="16"/>
+       Digital Commons Network™
+      </a>
+     </li>
+    </ul>
+   </nav>
+  </header>
+  <script src="/assets/scripts/dc-mobile/dc-mobile-nav.js">
+  </script>
+  <!--<![endif]-->
+  <!-- FILE: /srv/sequoia/main/data/open.clemson.edu/assets/header.pregen (cont) -->
+  <div id="clemson">
+   <div id="container">
+    <a accesskey="2" class="skiplink" href="#main">
+     Skip to main content
+    </a>
+    <div id="header">
+     <a href="https://open.clemson.edu" id="banner_link" title="Clemson OPEN">
+      <img alt="Clemson OPEN" height="258" id="banner_image" src="/assets/md5images/16517d9e580d27fcf595711c9be156d8.png" width="1960"/>
+     </a>
+     <a href="https://libraries.clemson.edu/" id="logo_link" title="Clemson University">
+      <img alt="Clemson University" height="129" id="logo_image" src="/assets/md5images/8ad9775e8e9ed0a46653cd9798378e43.png" width="303"/>
+     </a>
+    </div>
+    <div id="navigation">
+     <!-- FILE: /srv/sequoia/main/data/open.clemson.edu/assets/ir_navigation.inc -->
+     <div id="tabs">
+      <ul>
+       <li id="tabone">
+        <a href="https://open.clemson.edu" title="Home">
+         <span>
+          Home
+         </span>
+        </a>
+       </li>
+       <li id="tabtwo">
+        <a href="https://open.clemson.edu/cgi/myaccount.cgi?context=comm_programs" title="My Account">
+         <span>
+          My Account
+         </span>
+        </a>
+       </li>
+       <li id="tabthree">
+        <a href="https://open.clemson.edu/faq.html" title="FAQ">
+         <span>
+          FAQ
+         </span>
+        </a>
+       </li>
+       <li id="tabfive">
+        <a href="mailto:kokeefe@clemson.edu" title="Contact Us">
+         <span>
+          Contact Us
+         </span>
+        </a>
+       </li>
+       <li id="tabfour">
+        <a href="https://open.clemson.edu/about.html" title="About">
+         <span>
+          About
+         </span>
+        </a>
+       </li>
+      </ul>
+     </div>
+     <!-- FILE: /srv/sequoia/main/data/open.clemson.edu/assets/header.pregen (cont) -->
+    </div>
+    <div id="wrapper">
+     <div id="content">
+      <div class="text" id="main">
+       <script src="/assets/floatbox/floatbox.js" type="text/javascript">
+       </script>
+       <!-- FILE: /srv/sequoia/main/data/assets/site/article_pager.inc -->
+       <div id="breadcrumb">
+        <ul id="pager">
+         <li>
+          &lt;
+          <a class="ignore" href="https://open.clemson.edu/comm_programs/186">
+           Previous
+          </a>
+         </li>
+         <li>
+          <a class="ignore" href="https://open.clemson.edu/comm_programs/2">
+           Next
+          </a>
+          &gt;
+         </li>
+         <li>
+         </li>
+        </ul>
+        <div class="crumbs">
+         <!-- FILE: /srv/sequoia/main/data/assets/site/ir_breadcrumb.inc -->
+         <div aria-label="Breadcrumb" class="crumbs" role="navigation">
+          <p>
+           <a class="ignore" href="https://open.clemson.edu">
+            Home
+           </a>
+           <span aria-hidden="true">
+            &gt;
+           </span>
+           <a class="ignore" href="https://open.clemson.edu/libraries">
+            University Libraries
+           </a>
+           <span aria-hidden="true">
+            &gt;
+           </span>
+           <a class="ignore" href="https://open.clemson.edu/sca">
+            Special Collections and Archives
+           </a>
+           <span aria-hidden="true">
+            &gt;
+           </span>
+           <a class="ignore" href="https://open.clemson.edu/spec_coll">
+            University Archives
+           </a>
+           <span aria-hidden="true">
+            &gt;
+           </span>
+           <a class="ignore" href="https://open.clemson.edu/academic_affairs">
+            Academic Affairs
+           </a>
+           <span aria-hidden="true">
+            &gt;
+           </span>
+           <a class="ignore" href="https://open.clemson.edu/comm_programs">
+            COMM_PROGRAMS
+           </a>
+           <span aria-hidden="true">
+            &gt;
+           </span>
+           <a aria-current="page" class="ignore" href="https://open.clemson.edu/comm_programs/1">
+            1
+           </a>
+          </p>
+         </div>
+         <!-- FILE: /srv/sequoia/main/data/assets/site/article_pager.inc (cont) -->
+        </div>
+       </div>
+       <!-- FILE: /srv/sequoia/main/data/assets/site/ir_series/article/index.html (cont) -->
+       <!-- FILE: /srv/sequoia/main/data/assets/site/ir_series/article/article_info.inc -->
+       <!-- FILE: /srv/sequoia/main/data/assets/site/openurl.inc -->
+       <!-- FILE: /srv/sequoia/main/data/assets/site/ir_series/article/article_info.inc (cont) -->
+       <!-- FILE: /srv/sequoia/main/data/assets/site/ir_download_link.inc -->
+       <!-- FILE: /srv/sequoia/main/data/assets/site/ir_series/article/article_info.inc (cont) -->
+       <!-- FILE: /srv/sequoia/main/data/assets/site/ir_series/article/ir_article_header.inc -->
+       <div id="series-header">
+        <!-- FILE: /srv/sequoia/main/data/assets/site/ir_series/ir_series_logo.inc -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/ir_series/article/ir_article_header.inc (cont) -->
+        <h2 id="series-title">
+         <a href="https://open.clemson.edu/comm_programs">
+          Clemson Commencement Programs
+         </a>
+        </h2>
+       </div>
+       <div style="clear: both">
+       </div>
+       <div id="sub">
+        <div id="alpha">
+         <!-- FILE: /srv/sequoia/main/data/assets/site/ir_series/article/article_info.inc (cont) -->
+         <div class="element" id="title">
+          <h1>
+           <a href="https://open.clemson.edu/cgi/viewcontent.cgi?article=1000&amp;context=comm_programs">
+            Clemson Commencement Program, August 1968
+           </a>
+          </h1>
+         </div>
+         <div class="clear">
+         </div>
+         <div class="element" id="authors">
+          <h2 class="visually-hidden">
+           Authors
+          </h2>
+          <p class="author">
+           <a href="https://open.clemson.edu/do/search/?q=author%3A%22Clemson%20University%22&amp;start=0&amp;context=4572410">
+            <strong>
+             Clemson University
+            </strong>
+           </a>
+           <br/>
+          </p>
+         </div>
+         <div class="clear">
+         </div>
+         <div class="element" id="file_list">
+          <h2 class="field-heading visually-hidden">
+           Files
+          </h2>
+          <div id="file-list">
+           <div id="full-text">
+            <a class="btn" href="https://open.clemson.edu/cgi/viewcontent.cgi?article=1000&amp;context=comm_programs" id="alpha-pdf" target="_blank" title="PDF (1.3 MB) opens in new window">
+             <i class="icon-download-alt">
+             </i>
+             Download
+            </a>
+            <p>
+             Download Full Text
+             <span class="size">
+              (1.3 MB)
+             </span>
+            </p>
+           </div>
+           <!-- full-text -->
+          </div>
+          <!-- file-list -->
+         </div>
+         <div class="clear">
+         </div>
+         <div class="element" id="publisher">
+          <h2 class="field-heading">
+           Publisher
+          </h2>
+          <p>
+           Clemson University
+          </p>
+         </div>
+         <div class="clear">
+         </div>
+         <div class="element" id="publication_date">
+          <h2 class="field-heading">
+           Publication Date
+          </h2>
+          <p>
+           8-3-1968
+          </p>
+         </div>
+         <div class="clear">
+         </div>
+         <div class="element" id="county">
+          <h2 class="field-heading">
+           County
+          </h2>
+          <p>
+           Pickens County (S.C.)
+          </p>
+         </div>
+         <div class="clear">
+         </div>
+         <div class="element" id="recommended_citation">
+          <h2 class="field-heading">
+           Recommended Citation
+          </h2>
+          <!-- FILE: /srv/sequoia/main/data/assets/site/ir_series/ir_citation.inc -->
+          <p>
+           University, Clemson, "Clemson Commencement Program, August 1968" (1968).
+           <em>
+            Clemson Commencement Programs
+           </em>
+           .  1.
+           <br/>
+           https://open.clemson.edu/comm_programs/1
+          </p>
+          <!-- FILE: /srv/sequoia/main/data/assets/site/ir_series/article/article_info.inc (cont) -->
+         </div>
+         <div class="clear">
+         </div>
+         <div class="element" id="contributing_institution">
+          <h2 class="field-heading">
+           Contributing Institution
+          </h2>
+          <p>
+           Clemson University Libraries
+          </p>
+         </div>
+         <div class="clear">
+         </div>
+         <div class="element" id="language">
+          <h2 class="field-heading">
+           Language
+          </h2>
+          <p>
+           English
+          </p>
+         </div>
+         <div class="clear">
+         </div>
+         <div class="element" id="media_type">
+          <h2 class="field-heading">
+           Media Type
+          </h2>
+          <p>
+           Documents
+          </p>
+         </div>
+         <div class="clear">
+         </div>
+         <div class="element" id="rights">
+          <h2 class="field-heading">
+           Rights
+          </h2>
+          <p>
+           Copyright of Clemson University. Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.
+          </p>
+         </div>
+         <div class="clear">
+         </div>
+         <div class="element" id="mime_type">
+          <h2 class="field-heading">
+           MIME Type
+          </h2>
+          <p>
+           application/pdf
+          </p>
+         </div>
+         <div class="clear">
+         </div>
+        </div>
+       </div>
+       <div id="beta_7-3">
+        <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/openurl.inc -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/ir_download_link.inc -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_download_button.inc -->
+        <div class="aside download-button">
+         <a class="btn" href="https://open.clemson.edu/cgi/viewcontent.cgi?article=1000&amp;context=comm_programs" id="pdf" target="_blank" title="PDF (1.3 MB) opens in new window">
+          <i aria-hidden="true" class="icon-download-alt">
+          </i>
+          Download
+         </a>
+        </div>
+        <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_embargo.inc -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_custom_upper.inc -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_openurl.inc -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_article_metrics.inc -->
+        <div class="aside hidden" id="article-stats">
+         <p class="article-downloads-wrapper hidden">
+          <span id="article-downloads">
+          </span>
+          DOWNLOADS
+         </p>
+         <p class="article-stats-date hidden">
+          Since June 07, 2016
+         </p>
+         <p class="article-plum-metrics">
+          <a class="plumx-plum-print-popup plum-bigben-theme" data-badge="true" data-hide-when-empty="true" href="https://plu.mx/plum/a/?repo_url=https://open.clemson.edu/comm_programs/1">
+          </a>
+         </p>
+        </div>
+        <script src="//cdn.plu.mx/widget-popup.js" type="text/javascript">
+        </script>
+        <!-- Article Download Counts -->
+        <script src="/assets/scripts/article-downloads.pack.js" type="text/javascript">
+        </script>
+        <script type="text/javascript">
+         insertDownloads(8699034);
+        </script>
+        <!-- Add border to Plum badge & download counts when visible -->
+        <script>
+         // bind to event when PlumX widget loads
+jQuery('body').bind('plum:widget-load', function(e){
+// if Plum badge is visible
+  if (jQuery('.PlumX-Popup').length) {
+// remove 'hidden' class
+  jQuery('#article-stats').removeClass('hidden');
+  jQuery('.article-stats-date').addClass('plum-border');
+  }
+});
+// bind to event when page loads
+jQuery(window).bind('load',function(e){
+// if DC downloads are visible
+  if (jQuery('#article-downloads').text().length > 0) {
+// add border to aside
+  jQuery('#article-stats').removeClass('hidden');
+  }
+});
+        </script>
+        <!-- Amplitude Event Tracking -->
+        <script>
+         $(function() {
+
+  // This is the handler for Plum popup engagement on mouseover
+  $("#article-stats").on("mouseover", "a.plx-wrapping-print-link", function(event) {
+    // Send the event to Amplitude
+    amplitude.getInstance().logEvent("plumPopupMouseover");
+  });
+
+  // This is the handler for Plum badge and 'see details' link clickthrough
+  $("#article-stats").on("click", "div.ppp-container.ppp-small.ppp-badge", function(event) {
+    // Send the event to Amplitude
+    amplitude.getInstance().logEvent("plumDetailsClick");
+  });
+
+  // This is the handler for AddThis link clickthrough
+  $(".addthis_toolbox").on("click", "a", function(event) {
+    // Send the event to Amplitude
+    amplitude.getInstance().logEvent("addThisClick");
+  });
+
+  // This is the handler for AddThis link clickthrough
+  $(".aside.download-button").on("click", "a", function(event) {
+    // Send the event to Amplitude
+    amplitude.getInstance().logEvent("downloadClick");
+  });
+
+});
+        </script>
+        <!-- Adobe Analytics: Download Click Tracker -->
+        <script>
+         $(function() {
+
+  // Download button click event tracker for PDFs
+  $(".aside.download-button").on("click", "a#pdf", function(event) {
+    pageDataTracker.trackEvent('navigationClick', {
+      link: {
+          location: 'aside download-button',
+          name: 'pdf'
+      }
+    });
+  });
+
+  // Download button click event tracker for native files
+  $(".aside.download-button").on("click", "a#native", function(event) {
+    pageDataTracker.trackEvent('navigationClick', {
+        link: {
+            location: 'aside download-button',
+            name: 'native'
+        }
+     });
+  });
+
+});
+        </script>
+        <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_disciplines.inc -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/bookmark_widget.inc -->
+        <div class="aside" id="share">
+         <h2>
+          Share
+         </h2>
+         <div class="a2a_kit a2a_kit_size_24 a2a_default_style">
+          <a class="a2a_button_facebook">
+          </a>
+          <a class="a2a_button_linkedin">
+          </a>
+          <a class="a2a_button_whatsapp">
+          </a>
+          <a class="a2a_button_email">
+          </a>
+          <a class="a2a_dd">
+          </a>
+          <script async="" src="https://static.addtoany.com/menu/page.js">
+          </script>
+         </div>
+        </div>
+        <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_geolocate.inc -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/ir_geolocate_enabled_and_displayed.inc -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_geolocate.inc (cont) -->
+        <div class="aside">
+         <!-- FILE: /srv/sequoia/main/data/assets/site/ir_article_map.inc -->
+         <div class="clear">
+         </div>
+         <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_geolocate.inc (cont) -->
+        </div>
+        <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/zotero_coins.inc -->
+        <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft_id=https%3A%2F%2Fopen.clemson.edu%2Fcomm_programs%2F1&amp;rft.atitle=Clemson%20Commencement%20Program%2C%20August%201968&amp;rft.aufirst=Clemson&amp;rft.aulast=University&amp;rft.jtitle=Clemson%20Commencement%20Programs&amp;rft.date=1968-08-03">
+         COinS
+        </span>
+        <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_custom_lower.inc -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/info_box_7_3.inc (cont) -->
+        <!-- FILE: /srv/sequoia/main/data/assets/site/ir_series/article/article_info.inc (cont) -->
+       </div>
+       <div class="clear">
+       </div>
+       <!-- FILE: /srv/sequoia/main/data/assets/site/ir_series/article/ir_article_custom_fields.inc -->
+       <!-- FILE: /srv/sequoia/main/data/assets/site/ir_series/article/article_info.inc (cont) -->
+       <!-- FILE: /srv/sequoia/main/data/assets/site/ir_display_pdf.inc -->
+       <div class="clear">
+       </div>
+       <div id="display-pdf">
+        <object data="https://open.clemson.edu/cgi/viewcontent.cgi?article=1000&amp;context=comm_programs#toolbar=0&amp;navpanes=0&amp;scrollbar=1" height="460" type="application/pdf" width="660">
+         <div id="message">
+          <p>
+           To view the content in your browser, please
+           <a href="https://get.adobe.com/reader/" title="Adobe - Adobe Reader download">
+            download Adobe Reader
+           </a>
+           or, alternately,
+           <br/>
+           you may
+           <a href="https://open.clemson.edu/cgi/viewcontent.cgi?article=1000&amp;context=comm_programs">
+            Download
+           </a>
+           the file to your hard drive.
+          </p>
+          <p>
+           NOTE: The latest versions of Adobe Reader do not support viewing
+           <acronym title="Portable Document Format">
+            PDF
+           </acronym>
+           files within Firefox on Mac OS and if you are using a modern (Intel) Mac, there is no official plugin for viewing
+           <acronym title="Portable Document Format">
+            PDF
+           </acronym>
+           files within the browser window.
+          </p>
+         </div>
+        </object>
+       </div>
+       <div class="clear">
+       </div>
+       <!-- FILE: /srv/sequoia/main/data/assets/site/ir_series/article/article_info.inc (cont) -->
+       <!-- FILE: /srv/sequoia/main/data/assets/site/ir_series/article/index.html (cont) -->
+       <!-- FILE /srv/sequoia/main/data/assets/site/footer.pregen -->
+      </div>
+      <div class="verticalalign">
+      </div>
+      <div class="clear">
+      </div>
+     </div>
+     <div id="sidebar" role="complementary">
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_7_8.inc -->
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc -->
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_custom_upper_7_8.inc -->
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_search_7_8.inc -->
+      <h2 id="search_header">
+       Search
+      </h2>
+      <form action="https://open.clemson.edu/do/search/" id="sidebar-search" method="get">
+       <label accesskey="4" for="search">
+        Enter search terms:
+       </label>
+       <div>
+        <span class="border">
+         <input class="search" id="search" name="q" type="text"/>
+        </span>
+        <input class="searchbutton" style="font-size:11px;" type="submit" value="Search"/>
+       </div>
+       <label class="visually-hidden" for="context">
+        Select context to search:
+       </label>
+       <div>
+        <span class="border">
+         <select id="context" name="fq">
+          <option value='virtual_ancestor_link:"https://open.clemson.edu/comm_programs"'>
+           in this series
+          </option>
+          <option value='virtual_ancestor_link:"https://open.clemson.edu"'>
+           in this repository
+          </option>
+          <option value='virtual_ancestor_link:"http:/"'>
+           across all repositories
+          </option>
+         </select>
+        </span>
+       </div>
+      </form>
+      <p class="advanced">
+       <a href="https://open.clemson.edu/do/search/advanced/?fq=virtual_ancestor_link:%22https://open.clemson.edu/comm_programs%22">
+        Advanced Search
+       </a>
+      </p>
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_notify_7_8.inc -->
+      <ul id="side-notify">
+       <li class="notify">
+        <a href="https://open.clemson.edu/comm_programs/announcements.html" title="Email or RSS Notifications">
+         Notify me via email or
+         <acronym title="Really Simple Syndication">
+          RSS
+         </acronym>
+        </a>
+       </li>
+      </ul>
+      <!-- FILE: /srv/sequoia/main/data/assets/site/urc_badge.inc -->
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_notify_7_8.inc (cont) -->
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_custom_middle_7_8.inc -->
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+      <!-- FILE: /srv/sequoia/main/data/open.clemson.edu/assets/ir_sidebar_browse.inc -->
+      <h2>
+       Browse by
+      </h2>
+      <ul id="side-browse">
+       <li class="collections">
+        <a href="https://open.clemson.edu/communities.html" title="Browse by All Collections">
+         All Collections
+        </a>
+       </li>
+       <li class="author">
+        <a href="https://open.clemson.edu/authors.html" title="Browse by Author">
+         Authors
+        </a>
+       </li>
+       <li>
+        <a href="https://works.bepress.com/experts/clemson-university/" title="Browse Expert Gallery">
+         Expert Gallery
+        </a>
+       </li>
+       <li class="discipline-browser">
+        <a href="https://open.clemson.edu/do/discipline_browser/disciplines" title="Browse by Discipline">
+         Discipline
+        </a>
+       </li>
+       <li>
+        <a href="https://tigerprints.clemson.edu/etd/" title="Browse Theses and Dissertations">
+         Theses &amp; Dissertations
+        </a>
+       </li>
+       <li>
+        <a href="https://open.clemson.edu/sw_gallery.html" title="Selected Works Gallery">
+         Selected Works Gallery
+        </a>
+       </li>
+       <li>
+        <a href="https://open.clemson.edu/featured.html" title="Browse Journals">
+         Journals
+        </a>
+       </li>
+       <li>
+        <a href="https://tigerprints.clemson.edu/student/" title="Browse Student Works">
+         Student Works
+        </a>
+       </li>
+       <li>
+        <a href="https://tigerprints.clemson.edu/conf/" title="Conferences">
+         Conferences
+        </a>
+       </li>
+       <li>
+        <a href="https://tigerprints.clemson.edu/oa_fund/" title="Browse Open Access Fund Collection">
+         Open Access Fund Collection
+        </a>
+       </li>
+       <li>
+        <a href="https://tigerprints.clemson.edu/sca/" title="Browse Historic Collections">
+         Historic Collections
+        </a>
+       </li>
+      </ul>
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+      <!-- FILE: /srv/sequoia/main/data/open.clemson.edu/assets/ir_sidebar_author_7_8.inc -->
+      <h2>
+       Useful Links
+      </h2>
+      <ul id="side-author">
+       <li class="sb-custom-li">
+        <a href="https://tigerprints.clemson.edu/etd_submissions.html" title="Submit Theses and Dissertations">
+         Submit ETD
+        </a>
+       </li>
+       <li class="sb-custom-li">
+        <a href="https://open.clemson.edu/cgi/myaccount.cgi" title="My Account">
+         My Account
+        </a>
+       </li>
+       <li class="sb-custom-li">
+        <script type="text/javascript">
+         //<![CDATA[
+        document.write("<a href='mailto:" + "kokeefe" + "@" + "clemson.edu" + "'>" + "Contact Us" + "<\/a>")
+    //]]>
+        </script>
+       </li>
+       <li class="faq">
+        <a href="https://open.clemson.edu/faq.html" title="Author FAQ">
+         Author FAQ
+        </a>
+       </li>
+       <li class="sb-custom-li">
+        <a href="https://tigerprints.clemson.edu/author_resources/" title="Author Resources">
+         Author Resources
+        </a>
+       </li>
+       <li class="sb-custom-li">
+        <a href="http://clemson.libguides.com/c.php?g=230628&amp;p=1530639" title="Author Rights">
+         Author Rights
+        </a>
+       </li>
+       <li class="sb-custom-li">
+        <a href="http://clemson.libguides.com/scholarly" title="Scholarly Publishing Information">
+         Scholarly Publishing Information
+        </a>
+       </li>
+       <li class="sb-custom-li">
+        <a href="https://www.clemson.edu/graduate/students/theses-and-dissertations/index.html" title="Graduate School">
+         Graduate School
+        </a>
+       </li>
+      </ul>
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_custom_lower_7_8.inc -->
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_homepage_links_7_8.inc -->
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_custom_lower_7_8.inc (cont) -->
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sw_links_7_8.inc -->
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_geolocate.inc -->
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_geolocate_enabled_and_displayed.inc -->
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_geolocate.inc (cont) -->
+      <h2>
+       Article Locations
+      </h2>
+      <!-- FILE: /srv/sequoia/main/data/assets/site/google_map.inc -->
+      <script>
+       if (typeof window.googleMap=='undefined') {
+		document.write(
+			'<script src="/assets/cgi/js/geolocate-v3.pack.js"></' + 'script>'
+		);
+	}
+	if (
+		typeof window.google=='undefined'
+		|| typeof window.google.maps=='undefined'
+	) {
+		document.write(
+			'<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhbW6Wxlc9A2yM3fqEEQKM2lIQU-a7kxM&amp;sensor=false&amp;v=3"></' + 'script>'
+		);
+	}
+      </script>
+      <div id="side_map">
+      </div>
+      <script>
+       // Enable the new look
+	google.maps.visualRefresh = true;
+
+	var side_mapOptions = {};
+	side_mapOptions.zoomLevel = 5;
+	side_mapOptions.divId = "side_map";
+	side_mapOptions.submit = false;
+	side_mapOptions.context = "comm_programs" + "/";
+	
+	
+
+	var side_mapObj = new googleMap(side_mapOptions);
+	
+	side_mapObj.instantiate();
+
+	// If it's a sidebar map or the large map, load the KML file
+	if (
+		(side_mapOptions.divId === "side_map")
+		|| (side_mapOptions.divId === "large_map") 
+	) {
+		side_mapObj.loadKml();
+	}
+
+	// Attach clickHandler and keypressHandler to submit form maps
+	if (false) {
+		document.getElementById("locate").onclick=function() {
+			side_mapObj.showAddress(side_mapObj);
+		};
+		document.getElementById("geoLocateAddress").onkeypress=function(e) {
+			side_mapObj.geolocateOnEnter(e, side_mapObj);
+		};
+		// If a location is already provided, make placemarker draggable and attach dragHandler
+		
+	}
+      </script>
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_geolocate.inc (cont) -->
+      <ul>
+       <li>
+        <a class="floatbox" data-fb-options="colorTheme:black width:900 height:675 caption:href scrolling:no showClose:true" href="https://open.clemson.edu/comm_programs/map.html">
+         View articles on map
+        </a>
+       </li>
+       <li>
+        <a href="https://open.clemson.edu/comm_programs/images.kml">
+         View articles in Google Earth
+        </a>
+       </li>
+      </ul>
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+      <!-- FILE: /srv/sequoia/main/data/open.clemson.edu/assets/ir_sidebar_custom_lowest_7_8.inc -->
+      <!-- For custom sidebar content, delete the <magic ignore> tags around the <div> below 
+		as well as these instructions.  Use the example formatting below to keep styling consistent. -->
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_sort_sba.inc (cont) -->
+      <!-- FILE: /srv/sequoia/main/data/assets/site/ir_sidebar_7_8.inc (cont) -->
+      <!-- FILE: /srv/sequoia/main/data/assets/site/footer.pregen (cont) -->
+      <div class="verticalalign">
+      </div>
+     </div>
+    </div>
+    <!-- FILE: /srv/sequoia/main/data/assets/site/ir_footer_content.inc -->
+    <div id="footer" role="contentinfo">
+     <!-- FILE: /srv/sequoia/main/data/assets/site/ir_bepress_logo.inc -->
+     <div id="bepress">
+      <a href="https://www.elsevier.com/solutions/digital-commons" title="Elsevier - Digital Commons">
+       <em>
+        Elsevier - Digital Commons
+       </em>
+      </a>
+     </div>
+     <!-- FILE: /srv/sequoia/main/data/assets/site/ir_footer_content.inc (cont) -->
+     <p>
+      <a accesskey="1" href="https://open.clemson.edu" title="Home page">
+       Home
+      </a>
+      |
+      <a href="https://open.clemson.edu/about.html" title="About">
+       About
+      </a>
+      |
+      <a href="https://open.clemson.edu/faq.html" title="FAQ">
+       FAQ
+      </a>
+      |
+      <a accesskey="3" href="/cgi/myaccount.cgi?context=comm_programs" title="My Account Page">
+       My Account
+      </a>
+      |
+      <a accesskey="0" href="https://open.clemson.edu/accessibility.html" title="Accessibility Statement">
+       Accessibility Statement
+      </a>
+     </p>
+     <p>
+      <a class="secondary-link" href="https://www.bepress.com/privacy" title="Privacy Policy">
+       Privacy
+      </a>
+      <a class="secondary-link" href="https://www.bepress.com/copyright" title="Copyright Policy">
+       Copyright
+      </a>
+     </p>
+    </div>
+    <!-- FILE: /srv/sequoia/main/data/assets/site/footer.pregen (cont) -->
+   </div>
+  </div>
+  <!-- FILE: /srv/sequoia/main/data/open.clemson.edu/assets/ir_analytics.inc -->
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-42891787-17">
+  </script>
+  <script>
+   window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-42891787-17');
+  </script>
+  <!-- FILE: /srv/sequoia/main/data/assets/site/footer.pregen (cont) -->
+  <script src="/assets/scripts/bpbootstrap-20160726.pack.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   BPBootstrap.init({appendCookie:''})
+  </script>
+ </body>
+</html>
