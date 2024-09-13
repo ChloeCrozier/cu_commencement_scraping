@@ -4,13 +4,6 @@ from bs4 import BeautifulSoup
 import json
 
 def getMonth(month):
-    # if "Summer" in month_str:
-    #     return "Summer"
-    # elif "Spring" in month_str:
-    #     return "Spring"
-    # elif "Fall" in month_str:
-    #     return "Fall"
-    
     switcher = {
         "1": "January",
         "2": "February",
@@ -25,22 +18,42 @@ def getMonth(month):
         "11": "November",
         "12": "December"
     }
-    return switcher.get(month, month.split(" ")[0])
+    if(month.split(" ")[0] == "Summer"):
+        return "August"
+    elif(month.split(" ")[0] == "Winter"):
+        return "December"
+    elif(month.split(" ")[0] == "Spring"):
+        return "May"
+    else:
+        return switcher.get(month, month.split(" ")[0])
 
 url = 'https://open.clemson.edu/comm_programs/'
-urlDict = []
+urlDict = {}
 
 id = 1
 response = requests.get(url + str(id))
+
 while response.status_code == 200:
     soup = BeautifulSoup(response.text, 'html.parser')
+
     publicationHeader = soup.find('h2', class_='field-heading', text='Publication Date')
     date = publicationHeader.find_next_sibling('p').text.split("-")
     month = getMonth(date[0])
     year = date[-1]
     pdfLink = soup.find('a', id='alpha-pdf').get('href') if soup.find('a', id='alpha-pdf') else "No PDF found"
-    urlDict.append({year: {month: pdfLink}})
+
+    if year not in urlDict:
+        urlDict[year] = {month: [pdfLink]}
+    else:
+        if month in urlDict[year]:
+            count = len(urlDict[year][month]) + 1
+            month_key = f"{month}_{count}"
+            urlDict[year][month_key] = [pdfLink]
+        else:
+            urlDict[year][month] = [pdfLink]
+
     print(f"Scrape ID: {id} \t {year} {month} graduation @ {pdfLink}")
+
     id += 1
     response = requests.get(url + str(id))
 
