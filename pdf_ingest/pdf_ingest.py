@@ -1,42 +1,58 @@
 import pypdfium2 as pdfium
 import argparse
-import os 
+import os
+import json  # For JSON formatting
+import logging
 
 def get_all_text(path):
-    pdf = pdfium.PdfDocument(path)
-    text = ""
-    for i, page in enumerate(pdf, start=1):  # Page numbers manually
-        text += f"\n\nPage {i}\n"
-        text += page.get_textpage().get_text_range()
-    return text
+    """Extracts text from each page of a PDF document."""
+    try:
+        pdf = pdfium.PdfDocument(path)
+        text = ""
+        for i, page in enumerate(pdf, start=1):  # Page numbers manually
+            text += f"\n\nPage {i}\n"
+            text += page.get_textpage().get_text_range()
+        return text
+    except Exception as e:
+        logging.error(f"Error processing {path}: {e}")
+        return None
 
 def get_all_text_json(path):
-    pdf = pdfium.PdfDocument(path)
-    text = []
-    for i, page in enumerate(pdf, start=1):
-        text.append({
-            "page_number": str(i),
-            "text": page.get_textpage().get_text_bounded()
-        })
-    return text
+    """Extracts text from each page and returns it as a JSON-compatible structure."""
+    try:
+        pdf = pdfium.PdfDocument(path)
+        text = []
+        for i, page in enumerate(pdf, start=1):
+            text.append({
+                "page_number": str(i),
+                "text": page.get_textpage().get_text_range()  # Adjust to get_text_range() if needed
+            })
+        return text
+    except Exception as e:
+        logging.error(f"Error processing {path}: {e}")
+        return None
 
 def process_file(pdf_path, mode, output_dir):
+    """Process a single PDF file, extracting text in the specified mode."""
     print(f"Ingesting PDF file from path: {pdf_path}")
     file_name = os.path.basename(pdf_path).replace(".pdf", "")
     output_path = os.path.join(output_dir, f"{file_name}.{mode}")
 
     if mode == "txt":
         text = get_all_text(pdf_path)
-        with open(output_path, "w") as f:
-            f.write(text)
+        if text:
+            with open(output_path, "w") as f:
+                f.write(text)
+            print(f"Output written to: {output_path}")
     elif mode == "json":
         text = get_all_text_json(pdf_path)
-        with open(output_path, "w") as f:
-            f.write(str(text))
-    
-    print(f"Output written to: {output_path}")
+        if text:
+            with open(output_path, "w") as f:
+                json.dump(text, f, indent=4)  # Properly format the JSON
+            print(f"Output written to: {output_path}")
 
 def main(args):
+    """Main logic to walk through the directory and process PDF files."""
     if not os.path.exists(args.output):
         os.makedirs(args.output)
     
@@ -52,10 +68,14 @@ def main(args):
         print(f"No PDF files found in the directory: {args.path}")
 
 if __name__ == "__main__":
+    # Setup basic logging configuration
+    logging.basicConfig(level=logging.ERROR)
+    
+    # Argument parser setup
     parser = argparse.ArgumentParser(description='PDF Ingest')
-    parser.add_argument('--path', help='Path to the directory containing PDFs')
+    parser.add_argument('--path', help='Path to the directory containing PDFs', required=True)
     parser.add_argument('--mode', help='Mode to ingest the PDF file', choices=["txt", "json"], default="txt")
-    parser.add_argument('--output', help='Output directory')
+    parser.add_argument('--output', help='Output directory', required=True)
+    
     args = parser.parse_args()
     main(args)
-
