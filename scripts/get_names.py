@@ -1,44 +1,54 @@
 import os
 import re
+import json
 import pandas as pd
 
-# Define a pattern to match names starting with 't*' followed by the rest of the name
-name_pattern = re.compile(r'\bt\*[\w\s]+\b')
+# Updated regex pattern to find names starting with 't*' or '†*'
+name_pattern = re.compile(r'\b[t†]\*[\w\s]+\b')
 
-def find_names_in_txt(file_path):
-    """Reads a .txt file and returns a list of names that start with 't*'"""
-    with open(file_path, 'r') as file:
-        text = file.read()
+def find_names_in_json(json_data):
+    """Extracts a list of names that start with 't*' or '†*' from a list of JSON objects"""
+    names = []
     
-    # Find all occurrences of names starting with t*
-    names = name_pattern.findall(text)
+    for entry in json_data:
+        text = entry.get("text", "")
+        names.extend(name_pattern.findall(text))
+    
     return names
 
 def extract_year_from_filename(filename):
-    """Extracts the year from the filename assuming the format: YEAR_Month_XXX.txt"""
-    year_pattern = re.compile(r'(\d{4})')  # Matches the first 4 digits (the year)
+    """Extracts the year from the filename assuming the format: YEAR_Month_XXX.json"""
+    year_pattern = re.compile(r'(\d{4})')
     match = year_pattern.search(filename)
     if match:
-        return match.group(1)  # Returns the year as a string
+        return match.group(1)
     return None
 
-def process_files_in_directory(directory):
-    """Processes all .txt files in the given directory and returns a list of (year, name) tuples"""
+def process_json_files_in_directory(directory):
+    """Processes all .json files in the given directory and returns a list of (year, name) tuples"""
     data = []
     
     for root, dirs, files in os.walk(directory):
         for file in files:
-            if file.endswith(".txt"):
+            if file.endswith(".json"):
                 file_path = os.path.join(root, file)
                 print(f"Processing file: {file_path}")
                 
-                # Extract year from filename
+                # Extract the year from the filename
                 year = extract_year_from_filename(file)
                 
-                # Extract names from the file
-                names = find_names_in_txt(file_path)
+                # Read the JSON data from the file
+                try:
+                    with open(file_path, 'r') as json_file:
+                        json_data = json.load(json_file)
+                except json.JSONDecodeError as e:
+                    print(f"Error decoding JSON in file {file}: {e}")
+                    continue
                 
-                # Add each (year, name) pair to the data list
+                # Find names that match the pattern
+                names = find_names_in_json(json_data)
+                
+                # Append names and year to the data list
                 for name in names:
                     data.append((year, name))
                 
@@ -51,13 +61,13 @@ def save_to_csv(data, output_file):
     print(f"Data saved to {output_file}")
 
 def main():
-    input_directory = '../pdf_ingest/output'  # Adjust this if the path changes
-    output_file = '../data/names_by_year.csv'  # Output CSV file path
+    input_directory = '../pdf_ingest/output'  # Path to the directory containing JSON files
+    output_file = '../pdf_ingest/output/names_by_year.csv'  # Output CSV file path
     
-    # Process files and collect data
-    data = process_files_in_directory(input_directory)
+    # Process the JSON files and get the data
+    data = process_json_files_in_directory(input_directory)
     
-    # Save data to CSV
+    # Save the data to a CSV file
     save_to_csv(data, output_file)
 
 if __name__ == "__main__":
