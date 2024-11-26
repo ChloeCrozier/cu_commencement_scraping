@@ -1,7 +1,7 @@
 import pypdfium2 as pdfium
 import argparse
 import os
-import json  # For JSON formatting
+import json
 import logging
 
 def get_all_text(path):
@@ -9,7 +9,7 @@ def get_all_text(path):
     try:
         pdf = pdfium.PdfDocument(path)
         text = ""
-        for i, page in enumerate(pdf, start=1):  # Page numbers manually
+        for i, page in enumerate(pdf, start=1):
             text += f"\n\nPage {i}\n"
             text += page.get_textpage().get_text_range()
         return text
@@ -25,7 +25,7 @@ def get_all_text_json(path):
         for i, page in enumerate(pdf, start=1):
             text.append({
                 "page_number": str(i),
-                "text": page.get_textpage().get_text_range()  # Adjust to get_text_range() if needed
+                "text": page.get_textpage().get_text_range()
             })
         return text
     except Exception as e:
@@ -68,10 +68,8 @@ def main(args):
         print(f"No PDF files found in the directory: {args.path}")
 
 if __name__ == "__main__":
-    # Setup basic logging configuration
     logging.basicConfig(level=logging.ERROR)
     
-    # Argument parser setup
     parser = argparse.ArgumentParser(description='PDF Ingest')
     parser.add_argument('--path', help='Path to the directory containing PDFs', required=True)
     parser.add_argument('--mode', help='Mode to ingest the PDF file', choices=["txt", "json"], default="txt")
