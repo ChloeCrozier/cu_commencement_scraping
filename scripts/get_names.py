@@ -2,14 +2,21 @@ import os
 import re
 import pandas as pd
 
-# Updated regex pattern to find names starting with 't*', 't**', 't***', '†*', '†**', or '†***'
-name_pattern = re.compile(r'\b(?:t\*{1,3}|†\*{1,3})[\w\s]+\b', re.IGNORECASE)
+# Regex patterns for the three groups with Unicode for dagger and plus
+plus_pattern = re.compile(r'\u002B[\*]{0,3}[\w\s]+\b', re.UNICODE)  # \u002B is the Unicode for the plus sign
+dagger_pattern = re.compile(r'\u2020[\*]{0,3}[\w\s]+\b', re.UNICODE)  # \u2020 is the Unicode for dagger
+t_pattern = re.compile(r'\bt\*{1,3}[\w\s]+\b', re.IGNORECASE)
 
 def find_names_in_text(text):
-    """Extracts a list of names that start with 't*', 't**', 't***', '†*', '†**', or '†***' from a text file"""
-    matches = name_pattern.findall(text)
-    print(f"Found {len(matches)} matches")  # Debugging output
-    return matches
+    """Extracts a list of names from the text file using three different regex patterns"""
+    plus_matches = plus_pattern.findall(text)
+    dagger_matches = dagger_pattern.findall(text)
+    t_matches = t_pattern.findall(text)
+    
+    # Combine all matches from the three groups
+    all_matches = plus_matches + dagger_matches + t_matches
+    print(f"Found {len(all_matches)} matches")  # Debugging output
+    return all_matches
 
 def extract_year_from_filename(filename):
     """Extracts the year from the filename assuming the format: YEAR_Month_XXX.txt"""
@@ -46,7 +53,7 @@ def process_text_files_in_directory(directory):
                     print(f"Error reading file {file}: {e}")
                     continue
                 
-                # Find names that match the pattern
+                # Find names that match the patterns
                 names = find_names_in_text(text_data)
 
                 if not names:

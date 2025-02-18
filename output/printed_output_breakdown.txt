@@ -1,0 +1,808 @@
+
+Processing file: ../pdf_ingest/output/text_files/2009_August_1144.txt
+Extracted year 2009 from 2009_August_1144.txt
+Found 4 matches
+
+Processing file: ../pdf_ingest/output/text_files/1976_May_1193.txt
+Extracted year 1976 from 1976_May_1193.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1976_May_1193.txt
+
+Processing file: ../pdf_ingest/output/text_files/2008_May_1225.txt
+Extracted year 2008 from 2008_May_1225.txt
+Found 134 matches
+
+Processing file: ../pdf_ingest/output/text_files/2015_December_1234.txt
+Extracted year 2015 from 2015_December_1234.txt
+Found 43 matches
+
+Processing file: ../pdf_ingest/output/text_files/1977_May_1194.txt
+Extracted year 1977 from 1977_May_1194.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1977_May_1194.txt
+
+Processing file: ../pdf_ingest/output/text_files/1987_December_1120.txt
+Extracted year 1987 from 1987_December_1120.txt
+Found 9 matches
+
+Processing file: ../pdf_ingest/output/text_files/1976_December_1110.txt
+Extracted year 1976 from 1976_December_1110.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1976_December_1110.txt
+
+Processing file: ../pdf_ingest/output/text_files/1973_December_1107.txt
+Extracted year 1973 from 1973_December_1107.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1973_December_1107.txt
+
+Processing file: ../pdf_ingest/output/text_files/1996_December_1129.txt
+Extracted year 1996 from 1996_December_1129.txt
+Found 15 matches
+
+Processing file: ../pdf_ingest/output/text_files/2011_August_1096.txt
+Extracted year 2011 from 2011_August_1096.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/2011_August_1096.txt
+
+Processing file: ../pdf_ingest/output/text_files/1999_August_1085.txt
+Extracted year 1999 from 1999_August_1085.txt
+Found 12 matches
+
+Processing file: ../pdf_ingest/output/text_files/2024_May_1267.txt
+Extracted year 2024 from 2024_May_1267.txt
+Found 389 matches
+
+Processing file: ../pdf_ingest/output/text_files/2020_May_1251.txt
+Extracted year 2020 from 2020_May_1251.txt
+Found 352 matches
+
+Processing file: ../pdf_ingest/output/text_files/1986_December_1119.txt
+Extracted year 1986 from 1986_December_1119.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1986_December_1119.txt
+
+Processing file: ../pdf_ingest/output/text_files/2014_December_1146.txt
+Extracted year 2014 from 2014_December_1146.txt
+Found 38 matches
+
+Processing file: ../pdf_ingest/output/text_files/2000_August_1086.txt
+Extracted year 2000 from 2000_August_1086.txt
+Found 2 matches
+
+Processing file: ../pdf_ingest/output/text_files/2011_December_1145.txt
+Extracted year 2011 from 2011_December_1145.txt
+Found 13 matches
+
+Processing file: ../pdf_ingest/output/text_files/1999_May_1216.txt
+Extracted year 1999 from 1999_May_1216.txt
+Found 54 matches
+
+Processing file: ../pdf_ingest/output/text_files/2014_August_1099.txt
+Extracted year 2014 from 2014_August_1099.txt
+Found 2 matches
+
+Processing file: ../pdf_ingest/output/text_files/1966_August_1054.txt
+Extracted year 1966 from 1966_August_1054.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1966_August_1054.txt
+
+Processing file: ../pdf_ingest/output/text_files/1983_May_1041.txt
+Extracted year 1983 from 1983_May_1041.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1983_May_1041.txt
+
+Processing file: ../pdf_ingest/output/text_files/2008_August_1094.txt
+Extracted year 2008 from 2008_August_1094.txt
+Found 8 matches
+
+Processing file: ../pdf_ingest/output/text_files/2016_December_1247.txt
+Extracted year 2016 from 2016_December_1247.txt
+Found 54 matches
+
+Processing file: ../pdf_ingest/output/text_files/1970_August_1057.txt
+Extracted year 1970 from 1970_August_1057.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1970_August_1057.txt
+
+Processing file: ../pdf_ingest/output/text_files/1969_August_1056.txt
+Extracted year 1969 from 1969_August_1056.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1969_August_1056.txt
+
+Processing file: ../pdf_ingest/output/text_files/2012_December_1246.txt
+Extracted year 2012 from 2012_December_1246.txt
+Found 44 matches
+
+Processing file: ../pdf_ingest/output/text_files/1998_May_1215.txt
+Extracted year 1998 from 1998_May_1215.txt
+Found 61 matches
+
+Processing file: ../pdf_ingest/output/text_files/1972_May_1189.txt
+Extracted year 1972 from 1972_May_1189.txt
+Found 2 matches
+
+Processing file: ../pdf_ingest/output/text_files/2017_December_1245.txt
+Extracted year 2017 from 2017_December_1245.txt
+Found 49 matches
+
+Processing file: ../pdf_ingest/output/text_files/2017_August_2_1242.txt
+Extracted year 2017 from 2017_August_2_1242.txt
+Found 248 matches
+
+Processing file: ../pdf_ingest/output/text_files/1975_August_1062.txt
+Extracted year 1975 from 1975_August_1062.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1975_August_1062.txt
+
+Processing file: ../pdf_ingest/output/text_files/1985_August_1071.txt
+Extracted year 1985 from 1985_August_1071.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1985_August_1071.txt
+
+Processing file: ../pdf_ingest/output/text_files/2007_August_1093.txt
+Extracted year 2007 from 2007_August_1093.txt
+Found 3 matches
+
+Processing file: ../pdf_ingest/output/text_files/1972_December_1106.txt
+Extracted year 1972 from 1972_December_1106.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1972_December_1106.txt
+
+Processing file: ../pdf_ingest/output/text_files/1970_May_1187.txt
+Extracted year 1970 from 1970_May_1187.txt
+Found 3 matches
+
+Processing file: ../pdf_ingest/output/text_files/1965_May_1031.txt
+Extracted year 1965 from 1965_May_1031.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1965_May_1031.txt
+
+Processing file: ../pdf_ingest/output/text_files/1977_December_1111.txt
+Extracted year 1977 from 1977_December_1111.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1977_December_1111.txt
+
+Processing file: ../pdf_ingest/output/text_files/2022_December_1257.txt
+Extracted year 2022 from 2022_December_1257.txt
+Found 72 matches
+
+Processing file: ../pdf_ingest/output/text_files/2013_August_1098.txt
+Extracted year 2013 from 2013_August_1098.txt
+Found 3 matches
+
+Processing file: ../pdf_ingest/output/text_files/1968_December_1001.txt
+Extracted year 1968 from 1968_December_1001.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1968_December_1001.txt
+
+Processing file: ../pdf_ingest/output/text_files/1965_January_1159.txt
+Extracted year 1965 from 1965_January_1159.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1965_January_1159.txt
+
+Processing file: ../pdf_ingest/output/text_files/1984_August_1002.txt
+Extracted year 1984 from 1984_August_1002.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1984_August_1002.txt
+
+Processing file: ../pdf_ingest/output/text_files/2021_May_1250.txt
+Extracted year 2021 from 2021_May_1250.txt
+Found 420 matches
+
+Processing file: ../pdf_ingest/output/text_files/2017_August_1232.txt
+Extracted year 2017 from 2017_August_1232.txt
+Found 2 matches
+
+Processing file: ../pdf_ingest/output/text_files/1972_August_1059.txt
+Extracted year 1972 from 1972_August_1059.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1972_August_1059.txt
+
+Processing file: ../pdf_ingest/output/text_files/1964_May_1182.txt
+Extracted year 1964 from 1964_May_1182.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1964_May_1182.txt
+
+Processing file: ../pdf_ingest/output/text_files/2008_December_1141.txt
+Extracted year 2008 from 2008_December_1141.txt
+Found 40 matches
+
+Processing file: ../pdf_ingest/output/text_files/2009_May_1226.txt
+Extracted year 2009 from 2009_May_1226.txt
+Found 250 matches
+
+Processing file: ../pdf_ingest/output/text_files/1996_August_1082.txt
+Extracted year 1996 from 1996_August_1082.txt
+Found 1 matches
+
+Processing file: ../pdf_ingest/output/text_files/2021_August_1264.txt
+Extracted year 2021 from 2021_August_1264.txt
+Found 8 matches
+
+Processing file: ../pdf_ingest/output/text_files/2002_August_1088.txt
+Extracted year 2002 from 2002_August_1088.txt
+Found 3 matches
+
+Processing file: ../pdf_ingest/output/text_files/2006_December_1139.txt
+Extracted year 2006 from 2006_December_1139.txt
+Found 39 matches
+
+Processing file: ../pdf_ingest/output/text_files/1993_May_1210.txt
+Extracted year 1993 from 1993_May_1210.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1993_May_1210.txt
+
+Processing file: ../pdf_ingest/output/text_files/2016_August_1231.txt
+Extracted year 2016 from 2016_August_1231.txt
+Found 3 matches
+
+Processing file: ../pdf_ingest/output/text_files/1981_May_1198.txt
+Extracted year 1981 from 1981_May_1198.txt
+Found 1 matches
+
+Processing file: ../pdf_ingest/output/text_files/2006_August_1092.txt
+Extracted year 2006 from 2006_August_1092.txt
+Found 7 matches
+
+Processing file: ../pdf_ingest/output/text_files/2019_December_1258.txt
+Extracted year 2019 from 2019_December_1258.txt
+Found 75 matches
+
+Processing file: ../pdf_ingest/output/text_files/1968_May_1185.txt
+Extracted year 1968 from 1968_May_1185.txt
+Found 3 matches
+
+Processing file: ../pdf_ingest/output/text_files/1981_August_1068.txt
+Extracted year 1981 from 1981_August_1068.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1981_August_1068.txt
+
+Processing file: ../pdf_ingest/output/text_files/1969_December_1103.txt
+Extracted year 1969 from 1969_December_1103.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1969_December_1103.txt
+
+Processing file: ../pdf_ingest/output/text_files/2009_December_1243.txt
+Extracted year 2009 from 2009_December_1243.txt
+Found 37 matches
+
+Processing file: ../pdf_ingest/output/text_files/1994_May_1211.txt
+Extracted year 1994 from 1994_May_1211.txt
+Found 4 matches
+
+Processing file: ../pdf_ingest/output/text_files/2013_May_1229.txt
+Extracted year 2013 from 2013_May_1229.txt
+Found 252 matches
+
+Processing file: ../pdf_ingest/output/text_files/2018_May_1249.txt
+Extracted year 2018 from 2018_May_1249.txt
+Found 319 matches
+
+Processing file: ../pdf_ingest/output/text_files/1997_August_1083.txt
+Extracted year 1997 from 1997_August_1083.txt
+Found 1 matches
+
+Processing file: ../pdf_ingest/output/text_files/2005_December_1138.txt
+Extracted year 2005 from 2005_December_1138.txt
+Found 41 matches
+
+Processing file: ../pdf_ingest/output/text_files/2003_August_1089.txt
+Extracted year 2003 from 2003_August_1089.txt
+Found 3 matches
+
+Processing file: ../pdf_ingest/output/text_files/2020_August_1265.txt
+Extracted year 2020 from 2020_August_1265.txt
+Found 3 matches
+
+Processing file: ../pdf_ingest/output/text_files/1991_May_1208.txt
+Extracted year 1991 from 1991_May_1208.txt
+Found 37 matches
+
+Processing file: ../pdf_ingest/output/text_files/2005_May_1222.txt
+Extracted year 2005 from 2005_May_1222.txt
+Found 189 matches
+
+Processing file: ../pdf_ingest/output/text_files/1971_December_1105.txt
+Extracted year 1971 from 1971_December_1105.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1971_December_1105.txt
+
+Processing file: ../pdf_ingest/output/text_files/1998_December_1131.txt
+Extracted year 1998 from 1998_December_1131.txt
+Found 12 matches
+
+Processing file: ../pdf_ingest/output/text_files/2021_December_1254.txt
+Extracted year 2021 from 2021_December_1254.txt
+Found 90 matches
+
+Processing file: ../pdf_ingest/output/text_files/1974_August_1061.txt
+Extracted year 1974 from 1974_August_1061.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1974_August_1061.txt
+
+Processing file: ../pdf_ingest/output/text_files/2013_December_1233.txt
+Extracted year 2013 from 2013_December_1233.txt
+Found 34 matches
+
+Processing file: ../pdf_ingest/output/text_files/1987_May_1204.txt
+Extracted year 1987 from 1987_May_1204.txt
+Found 26 matches
+
+Processing file: ../pdf_ingest/output/text_files/2003_May_1220.txt
+Extracted year 2003 from 2003_May_1220.txt
+Found 97 matches
+
+Processing file: ../pdf_ingest/output/text_files/1995_December_1128.txt
+Extracted year 1995 from 1995_December_1128.txt
+Found 17 matches
+
+Processing file: ../pdf_ingest/output/text_files/1986_May_1203.txt
+Extracted year 1986 from 1986_May_1203.txt
+Found 20 matches
+
+Processing file: ../pdf_ingest/output/text_files/1998_August_1084.txt
+Extracted year 1998 from 1998_August_1084.txt
+Found 8 matches
+
+Processing file: ../pdf_ingest/output/text_files/2019_May_1248.txt
+Extracted year 2019 from 2019_May_1248.txt
+Found 332 matches
+
+Processing file: ../pdf_ingest/output/text_files/1999_December_1132.txt
+Extracted year 1999 from 1999_December_1132.txt
+Found 12 matches
+
+Processing file: ../pdf_ingest/output/text_files/2004_May_1221.txt
+Extracted year 2004 from 2004_May_1221.txt
+Found 103 matches
+
+Processing file: ../pdf_ingest/output/text_files/1973_August_1060.txt
+Extracted year 1973 from 1973_August_1060.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1973_August_1060.txt
+
+Processing file: ../pdf_ingest/output/text_files/2010_May_1227.txt
+Extracted year 2010 from 2010_May_1227.txt
+Found 241 matches
+
+Processing file: ../pdf_ingest/output/text_files/1967_August_1055.txt
+Extracted year 1967 from 1967_August_1055.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1967_August_1055.txt
+
+Processing file: ../pdf_ingest/output/text_files/2000_May_1217.txt
+Extracted year 2000 from 2000_May_1217.txt
+Found 55 matches
+
+Processing file: ../pdf_ingest/output/text_files/2001_August_1087.txt
+Extracted year 2001 from 2001_August_1087.txt
+Found 4 matches
+
+Processing file: ../pdf_ingest/output/text_files/2020_December_1255.txt
+Extracted year 2020 from 2020_December_1255.txt
+Found 92 matches
+
+Processing file: ../pdf_ingest/output/text_files/2016_May_1236.txt
+Extracted year 2016 from 2016_May_1236.txt
+Found 245 matches
+
+Processing file: ../pdf_ingest/output/text_files/1970_December_1104.txt
+Extracted year 1970 from 1970_December_1104.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1970_December_1104.txt
+
+Processing file: ../pdf_ingest/output/text_files/1995_May_1212.txt
+Extracted year 1995 from 1995_May_1212.txt
+Found 1 matches
+
+Processing file: ../pdf_ingest/output/text_files/2010_August_1095.txt
+Extracted year 2010 from 2010_August_1095.txt
+Found 1 matches
+
+Processing file: ../pdf_ingest/output/text_files/2002_May_1219.txt
+Extracted year 2002 from 2002_May_1219.txt
+Found 81 matches
+
+Processing file: ../pdf_ingest/output/text_files/1985_December_1118.txt
+Extracted year 1985 from 1985_December_1118.txt
+Found 5 matches
+
+Processing file: ../pdf_ingest/output/text_files/1983_August_1070.txt
+Extracted year 1983 from 1983_August_1070.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1983_August_1070.txt
+
+Processing file: ../pdf_ingest/output/text_files/1969_May_1186.txt
+Extracted year 1969 from 1969_May_1186.txt
+Found 4 matches
+
+Processing file: ../pdf_ingest/output/text_files/1982_May_1199.txt
+Extracted year 1982 from 1982_May_1199.txt
+Found 6 matches
+
+Processing file: ../pdf_ingest/output/text_files/1995_August_1081.txt
+Extracted year 1995 from 1995_August_1081.txt
+Found 5 matches
+
+Processing file: ../pdf_ingest/output/text_files/1980_May_1197.txt
+Extracted year 1980 from 1980_May_1197.txt
+Found 6 matches
+
+Processing file: ../pdf_ingest/output/text_files/1976_August_1063.txt
+Extracted year 1976 from 1976_August_1063.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1976_August_1063.txt
+
+Processing file: ../pdf_ingest/output/text_files/2018_December_1256.txt
+Extracted year 2018 from 2018_December_1256.txt
+Found 50 matches
+
+Processing file: ../pdf_ingest/output/text_files/1964_January_1235.txt
+Extracted year 1964 from 1964_January_1235.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1964_January_1235.txt
+
+Processing file: ../pdf_ingest/output/text_files/2015_August_1240.txt
+Extracted year 2015 from 2015_August_1240.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/2015_August_1240.txt
+
+Processing file: ../pdf_ingest/output/text_files/1988_December_1121.txt
+Extracted year 1988 from 1988_December_1121.txt
+Found 7 matches
+
+Processing file: ../pdf_ingest/output/text_files/2007_May_1224.txt
+Extracted year 2007 from 2007_May_1224.txt
+Found 162 matches
+
+Processing file: ../pdf_ingest/output/text_files/2004_December_1137.txt
+Extracted year 2004 from 2004_December_1137.txt
+Found 42 matches
+
+Processing file: ../pdf_ingest/output/text_files/2001_December_1134.txt
+Extracted year 2001 from 2001_December_1134.txt
+Found 16 matches
+
+Processing file: ../pdf_ingest/output/text_files/1979_December_1113.txt
+Extracted year 1979 from 1979_December_1113.txt
+Found 1 matches
+
+Processing file: ../pdf_ingest/output/text_files/2006_May_1223.txt
+Extracted year 2006 from 2006_May_1223.txt
+Found 185 matches
+
+Processing file: ../pdf_ingest/output/text_files/1992_May_1209.txt
+Extracted year 1992 from 1992_May_1209.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1992_May_1209.txt
+
+Processing file: ../pdf_ingest/output/text_files/1978_May_1195.txt
+Extracted year 1978 from 1978_May_1195.txt
+Found 7 matches
+
+Processing file: ../pdf_ingest/output/text_files/1986_August_1072.txt
+Extracted year 1986 from 1986_August_1072.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1986_August_1072.txt
+
+Processing file: ../pdf_ingest/output/text_files/2004_August_1090.txt
+Extracted year 2004 from 2004_August_1090.txt
+Found 5 matches
+
+Processing file: ../pdf_ingest/output/text_files/1980_December_1114.txt
+Extracted year 1980 from 1980_December_1114.txt
+Found 1 matches
+
+Processing file: ../pdf_ingest/output/text_files/1992_August_1078.txt
+Extracted year 1992 from 1992_August_1078.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1992_August_1078.txt
+
+Processing file: ../pdf_ingest/output/text_files/1965_August_1053.txt
+Extracted year 1965 from 1965_August_1053.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1965_August_1053.txt
+
+Processing file: ../pdf_ingest/output/text_files/1971_August_1058.txt
+Extracted year 1971 from 1971_August_1058.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1971_August_1058.txt
+
+Processing file: ../pdf_ingest/output/text_files/1975_December_1109.txt
+Extracted year 1975 from 1975_December_1109.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1975_December_1109.txt
+
+Processing file: ../pdf_ingest/output/text_files/2000_December_1133.txt
+Extracted year 2000 from 2000_December_1133.txt
+Found 8 matches
+
+Processing file: ../pdf_ingest/output/text_files/1990_May_1207.txt
+Extracted year 1990 from 1990_May_1207.txt
+Found 19 matches
+
+Processing file: ../pdf_ingest/output/text_files/1984_May_1201.txt
+Extracted year 1984 from 1984_May_1201.txt
+Found 3 matches
+
+Processing file: ../pdf_ingest/output/text_files/2018_August_1261.txt
+Extracted year 2018 from 2018_August_1261.txt
+Found 8 matches
+
+Processing file: ../pdf_ingest/output/text_files/1989_August_1075.txt
+Extracted year 1989 from 1989_August_1075.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1989_August_1075.txt
+
+Processing file: ../pdf_ingest/output/text_files/1979_August_1066.txt
+Extracted year 1979 from 1979_August_1066.txt
+Found 1 matches
+
+Processing file: ../pdf_ingest/output/text_files/1991_December_1124.txt
+Extracted year 1991 from 1991_December_1124.txt
+Found 16 matches
+
+Processing file: ../pdf_ingest/output/text_files/1994_December_1127.txt
+Extracted year 1994 from 1994_December_1127.txt
+Found 1 matches
+
+Processing file: ../pdf_ingest/output/text_files/1985_May_1202.txt
+Extracted year 1985 from 1985_May_1202.txt
+Found 18 matches
+
+Processing file: ../pdf_ingest/output/text_files/2011_May_1228.txt
+Extracted year 2011 from 2011_May_1228.txt
+Found 238 matches
+
+Processing file: ../pdf_ingest/output/text_files/1990_December_1123.txt
+Extracted year 1990 from 1990_December_1123.txt
+Found 6 matches
+
+Processing file: ../pdf_ingest/output/text_files/1979_May_1196.txt
+Extracted year 1979 from 1979_May_1196.txt
+Found 11 matches
+
+Processing file: ../pdf_ingest/output/text_files/2022_August_1260.txt
+Extracted year 2022 from 2022_August_1260.txt
+Found 5 matches
+
+Processing file: ../pdf_ingest/output/text_files/2012_August_1097.txt
+Extracted year 2012 from 2012_August_1097.txt
+Found 7 matches
+
+Processing file: ../pdf_ingest/output/text_files/2007_December_1140.txt
+Extracted year 2007 from 2007_December_1140.txt
+Found 25 matches
+
+Processing file: ../pdf_ingest/output/text_files/1983_May_2_1200.txt
+Extracted year 1983 from 1983_May_2_1200.txt
+Found 1 matches
+
+Processing file: ../pdf_ingest/output/text_files/1997_May_1214.txt
+Extracted year 1997 from 1997_May_1214.txt
+Found 44 matches
+
+Processing file: ../pdf_ingest/output/text_files/2017_May_1238.txt
+Extracted year 2017 from 2017_May_1238.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/2017_May_1238.txt
+
+Processing file: ../pdf_ingest/output/text_files/2014_May_1230.txt
+Extracted year 2014 from 2014_May_1230.txt
+Found 181 matches
+
+Processing file: ../pdf_ingest/output/text_files/1965_December_1100.txt
+Extracted year 1965 from 1965_December_1100.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1965_December_1100.txt
+
+Processing file: ../pdf_ingest/output/text_files/1974_December_1108.txt
+Extracted year 1974 from 1974_December_1108.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1974_December_1108.txt
+
+Processing file: ../pdf_ingest/output/text_files/1996_May_1213.txt
+Extracted year 1996 from 1996_May_1213.txt
+Found 38 matches
+
+Processing file: ../pdf_ingest/output/text_files/1981_December_1115.txt
+Extracted year 1981 from 1981_December_1115.txt
+Found 2 matches
+
+Processing file: ../pdf_ingest/output/text_files/1962_August_1051.txt
+Extracted year 1962 from 1962_August_1051.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1962_August_1051.txt
+
+Processing file: ../pdf_ingest/output/text_files/2001_May_1218.txt
+Extracted year 2001 from 2001_May_1218.txt
+Found 72 matches
+
+Processing file: ../pdf_ingest/output/text_files/1978_December_1112.txt
+Extracted year 1978 from 1978_December_1112.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1978_December_1112.txt
+
+Processing file: ../pdf_ingest/output/text_files/1989_December_1122.txt
+Extracted year 1989 from 1989_December_1122.txt
+Found 7 matches
+
+Processing file: ../pdf_ingest/output/text_files/1990_August_1076.txt
+Extracted year 1990 from 1990_August_1076.txt
+Found 2 matches
+
+Processing file: ../pdf_ingest/output/text_files/1980_August_1067.txt
+Extracted year 1980 from 1980_August_1067.txt
+Found 1 matches
+
+Processing file: ../pdf_ingest/output/text_files/1977_August_1064.txt
+Extracted year 1977 from 1977_August_1064.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1977_August_1064.txt
+
+Processing file: ../pdf_ingest/output/text_files/2023_May_1253.txt
+Extracted year 2023 from 2023_May_1253.txt
+Found 385 matches
+
+Processing file: ../pdf_ingest/output/text_files/1975_May_1192.txt
+Extracted year 1975 from 1975_May_1192.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1975_May_1192.txt
+
+Processing file: ../pdf_ingest/output/text_files/1982_December_1116.txt
+Extracted year 1982 from 1982_December_1116.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1982_December_1116.txt
+
+Processing file: ../pdf_ingest/output/text_files/1962_January_1158.txt
+Extracted year 1962 from 1962_January_1158.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1962_January_1158.txt
+
+Processing file: ../pdf_ingest/output/text_files/1988_August_1074.txt
+Extracted year 1988 from 1988_August_1074.txt
+Found 2 matches
+
+Processing file: ../pdf_ingest/output/text_files/1989_May_1206.txt
+Extracted year 1989 from 1989_May_1206.txt
+Found 21 matches
+
+Processing file: ../pdf_ingest/output/text_files/2012_May_1244.txt
+Extracted year 2012 from 2012_May_1244.txt
+Found 235 matches
+
+Processing file: ../pdf_ingest/output/text_files/2003_December_1136.txt
+Extracted year 2003 from 2003_December_1136.txt
+Found 22 matches
+
+Processing file: ../pdf_ingest/output/text_files/1992_December_1125.txt
+Extracted year 1992 from 1992_December_1125.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1992_December_1125.txt
+
+Processing file: ../pdf_ingest/output/text_files/1966_May_1183.txt
+Extracted year 1966 from 1966_May_1183.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1966_May_1183.txt
+
+Processing file: ../pdf_ingest/output/text_files/1997_December_1130.txt
+Extracted year 1997 from 1997_December_1130.txt
+Found 19 matches
+
+Processing file: ../pdf_ingest/output/text_files/1962_June_1176.txt
+Extracted year 1962 from 1962_June_1176.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1962_June_1176.txt
+
+Processing file: ../pdf_ingest/output/text_files/1991_August_1077.txt
+Extracted year 1991 from 1991_August_1077.txt
+Found 5 matches
+
+Processing file: ../pdf_ingest/output/text_files/1978_August_1065.txt
+Extracted year 1978 from 1978_August_1065.txt
+Found 4 matches
+
+Processing file: ../pdf_ingest/output/text_files/1967_May_1184.txt
+Extracted year 1967 from 1967_May_1184.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1967_May_1184.txt
+
+Processing file: ../pdf_ingest/output/text_files/2023_August_1263.txt
+Extracted year 2023 from 2023_August_1263.txt
+Found 13 matches
+
+Processing file: ../pdf_ingest/output/text_files/1966_December_1101.txt
+Extracted year 1966 from 1966_December_1101.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1966_December_1101.txt
+
+Processing file: ../pdf_ingest/output/text_files/2017_December_2_1259.txt
+Extracted year 2017 from 2017_December_2_1259.txt
+Found 49 matches
+
+Processing file: ../pdf_ingest/output/text_files/1971_May_1188.txt
+Extracted year 1971 from 1971_May_1188.txt
+Found 2 matches
+
+Processing file: ../pdf_ingest/output/text_files/1982_August_1069.txt
+Extracted year 1982 from 1982_August_1069.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1982_August_1069.txt
+
+Processing file: ../pdf_ingest/output/text_files/2022_May_1252.txt
+Extracted year 2022 from 2022_May_1252.txt
+Found 372 matches
+
+Processing file: ../pdf_ingest/output/text_files/1983_December_1117.txt
+Extracted year 1983 from 1983_December_1117.txt
+Found 1 matches
+
+Processing file: ../pdf_ingest/output/text_files/2019_August_1262.txt
+Extracted year 2019 from 2019_August_1262.txt
+Found 7 matches
+
+Processing file: ../pdf_ingest/output/text_files/1984_December_1003.txt
+Extracted year 1984 from 1984_December_1003.txt
+Found 1 matches
+
+Processing file: ../pdf_ingest/output/text_files/1994_August_1080.txt
+Extracted year 1994 from 1994_August_1080.txt
+Found 1 matches
+
+Processing file: ../pdf_ingest/output/text_files/1967_December_1102.txt
+Extracted year 1967 from 1967_December_1102.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1967_December_1102.txt
+
+Processing file: ../pdf_ingest/output/text_files/2010_December_1239.txt
+Extracted year 2010 from 2010_December_1239.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/2010_December_1239.txt
+
+Processing file: ../pdf_ingest/output/text_files/1988_May_1205.txt
+Extracted year 1988 from 1988_May_1205.txt
+Found 25 matches
+
+Processing file: ../pdf_ingest/output/text_files/1993_August_1079.txt
+Extracted year 1993 from 1993_August_1079.txt
+Found 1 matches
+
+Processing file: ../pdf_ingest/output/text_files/1964_August_1052.txt
+Extracted year 1964 from 1964_August_1052.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1964_August_1052.txt
+
+Processing file: ../pdf_ingest/output/text_files/1973_May_1190.txt
+Extracted year 1973 from 1973_May_1190.txt
+Found 2 matches
+
+Processing file: ../pdf_ingest/output/text_files/2023_December_1266.txt
+Extracted year 2023 from 2023_December_1266.txt
+Found 83 matches
+
+Processing file: ../pdf_ingest/output/text_files/1974_May_1191.txt
+Extracted year 1974 from 1974_May_1191.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1974_May_1191.txt
+
+Processing file: ../pdf_ingest/output/text_files/1968_August_1000.txt
+Extracted year 1968 from 1968_August_1000.txt
+Found 0 matches
+No matches found in ../pdf_ingest/output/text_files/1968_August_1000.txt
+
+Processing file: ../pdf_ingest/output/text_files/2002_December_1135.txt
+Extracted year 2002 from 2002_December_1135.txt
+Found 19 matches
+
+Processing file: ../pdf_ingest/output/text_files/1987_August_1073.txt
+Extracted year 1987 from 1987_August_1073.txt
+Found 3 matches
+
+Processing file: ../pdf_ingest/output/text_files/2005_August_1091.txt
+Extracted year 2005 from 2005_August_1091.txt
+Found 6 matches
+
+Processing file: ../pdf_ingest/output/text_files/1993_December_1126.txt
+Extracted year 1993 from 1993_December_1126.txt
+Found 1 matches
+Data saved to ../output/names_by_year.csv
