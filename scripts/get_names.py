@@ -4,7 +4,7 @@ import json
 import pandas as pd
 
 # Updated regex pattern to find names starting with 't*' or '†*'
-name_pattern = re.compile(r'\b[t†]\*[\w\s]+\b')
+name_pattern = re.compile(r'\b(?:t\*|†\*)[\w\s]+\b', re.IGNORECASE)
 
 def find_names_in_json(json_data):
     """Extracts a list of names that start with 't*' or '†*' from a list of JSON objects"""
