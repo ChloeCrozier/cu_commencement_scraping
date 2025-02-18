@@ -62,7 +62,7 @@ def save_to_csv(data, output_file):
 
 def main():
     input_directory = '../pdf_ingest/output'  # Path to the directory containing JSON files
-    output_file = '../pdf_ingest/output/names_by_year.csv'  # Output CSV file path
+    output_file = '../output/names_by_year.csv'  # Output CSV file path
     
     # Process the JSON files and get the data
     data = process_json_files_in_directory(input_directory)
