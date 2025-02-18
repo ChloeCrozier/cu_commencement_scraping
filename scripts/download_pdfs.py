@@ -18,7 +18,7 @@ except json.JSONDecodeError as e:
 os.makedirs(output_dir, exist_ok=True)
 
 for year, months in data.items():
-    if int(year) >= 2005:
+    if int(year) >= 1962:
         for month, urls in months.items():
             for url in urls:
                 filename = "{}_{}_{}.pdf".format(year, month, url.split('=')[1].split('&')[0])

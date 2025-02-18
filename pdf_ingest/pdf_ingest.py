@@ -48,7 +48,7 @@ def process_file(pdf_path, mode, output_dir):
         text = get_all_text_json(pdf_path)
         if text:
             with open(output_path, "w") as f:
-                json.dump(text, f, indent=4)  # Properly format the JSON
+                json.dump(text, f, indent=4)
             print(f"Output written to: {output_path}")
 
 def main(args):
