@@ -3,7 +3,7 @@ import json
 import requests
 
 json_path = "../data/graduations.json"
-output_dir = "../pdf_ingest/output"
+output_dir = "../pdf_ingest/input_pdfs"
 
 try:
     with open(json_path, 'r') as f:

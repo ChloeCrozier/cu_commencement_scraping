@@ -1,87 +1,56 @@
-import os
-import re
 import pandas as pd
+import re
 
-# Regex patterns for the three groups with Unicode for dagger and plus
-plus_pattern = re.compile(r'\u002B[\*]{0,3}[\w\s]+\b', re.UNICODE)  # \u002B is the Unicode for the plus sign
-dagger_pattern = re.compile(r'\u2020[\*]{0,3}[\w\s]+\b', re.UNICODE)  # \u2020 is the Unicode for dagger
-t_pattern = re.compile(r'\bt\*{1,3}[\w\s]+\b', re.IGNORECASE)
+def clean_names(input_file, output_file):
+    # Read CSV file
+    df = pd.read_csv(input_file, delimiter=',', dtype=str)  # Read everything as string
+    print("Initial DataFrame:")
+    print(df.head())  # Debugging output
 
-def find_names_in_text(text):
-    """Extracts a list of names from the text file using three different regex patterns"""
-    plus_matches = plus_pattern.findall(text)
-    dagger_matches = dagger_pattern.findall(text)
-    t_matches = t_pattern.findall(text)
+    if df.empty:
+        print("Error: The CSV file appears to be empty or incorrectly formatted.")
+        return
+
+    # Normalize column names
+    df.columns = df.columns.str.strip()
+    df = df.dropna(subset=['Year', 'Name'])  # Drop rows with missing values
+
+    cleaned_data = []
     
-    # Combine all matches from the three groups
-    all_matches = plus_matches + dagger_matches + t_matches
-    print(f"Found {len(all_matches)} matches")  # Debugging output
-    return all_matches
+    # Unicode-based regex patterns
+    plus_pattern = re.compile(r'^\u002B[\*]{0,3}\s*', re.UNICODE)  # + symbol
+    dagger_pattern = re.compile(r'^\u2020[\*]{0,3}\s*', re.UNICODE)  # † symbol
+    t_pattern = re.compile(r'^\bt\*{1,3}\s*', re.IGNORECASE)  # t with * variations
 
-def extract_year_from_filename(filename):
-    """Extracts the year from the filename assuming the format: YEAR_Month_XXX.txt"""
-    year_pattern = re.compile(r'(\d{4})')
-    match = year_pattern.search(filename)
-    if match:
-        print(f"Extracted year {match.group(1)} from {filename}")  # Debugging output
-        return match.group(1)
-    print(f"Warning: Could not extract year from {filename}")  # Debugging output
-    return None
+    for _, row in df.iterrows():
+        year = row['Year'].strip()
+        name = row['Name'].strip()
 
-def process_text_files_in_directory(directory):
-    """Processes all .txt files in the given directory and returns a list of (year, name) tuples"""
-    data = []
+        # Remove Unicode-based prefixes
+        cleaned_name = re.sub(plus_pattern, '', name)
+        cleaned_name = re.sub(dagger_pattern, '', cleaned_name)
+        cleaned_name = re.sub(t_pattern, '', cleaned_name)
+
+        print(f"Processing: Year = {year}, Name = {cleaned_name}")  # Debugging output
+
+        if not year or not cleaned_name:
+            continue  # Skip rows with missing data
+        
+        cleaned_data.append((year, cleaned_name))
     
-    for root, _, files in os.walk(directory):
-        for file in files:
-            if file.endswith(".txt"):
-                file_path = os.path.join(root, file)
-                print(f"\nProcessing file: {file_path}")  # Debugging output
-                
-                # Extract the year from the filename
-                year = extract_year_from_filename(file)
-                
-                if not year:
-                    print(f"Skipping {file_path} due to missing year")  # Debugging output
-                    continue
-
-                # Read the text data from the file
-                try:
-                    with open(file_path, 'r', encoding='utf-8') as text_file:
-                        text_data = text_file.read()
-                except Exception as e:
-                    print(f"Error reading file {file}: {e}")
-                    continue
-                
-                # Find names that match the patterns
-                names = find_names_in_text(text_data)
-
-                if not names:
-                    print(f"No matches found in {file_path}")  # Debugging output
-                
-                # Append names and year to the data list
-                for name in names:
-                    data.append((year, name))
-                
-    return data
-
-def save_to_csv(data, output_file):
-    """Saves the collected data to a CSV file"""
-    if not data:
-        print("Warning: No data to save!")  # Debugging output
-    df = pd.DataFrame(data, columns=['Year', 'Name'])
-    df.to_csv(output_file, index=False)
-    print(f"Data saved to {output_file}")
-
-def main():
-    input_directory = '../pdf_ingest/output'  # Path to the directory containing text files
-    output_file = '../output/names_by_year.csv'  # Output CSV file path
+    # Convert cleaned data to DataFrame
+    cleaned_df = pd.DataFrame(cleaned_data, columns=['Year', 'Name'])
     
-    # Process the text files and get the data
-    data = process_text_files_in_directory(input_directory)
-    
-    # Save the data to a CSV file
-    save_to_csv(data, output_file)
+    # Save to CSV
+    if cleaned_df.empty:
+        print("Warning: No data was processed. Check the input format.")
+    else:
+        cleaned_df.to_csv(output_file, index=False)
+        print(f"Cleaned data saved to {output_file}")
 
-if __name__ == "__main__":
-    main()
+# File paths
+input_file = 'names_by_year.csv'  # Ensure this file exists
+output_file = 'honors_graduates.csv'
+
+# Run the cleaning function
+clean_names(input_file, output_file)
