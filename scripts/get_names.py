@@ -1,56 +1,100 @@
+import os
 import pandas as pd
 import re
 
-def clean_names(input_file, output_file):
-    # Read CSV file
-    df = pd.read_csv(input_file, delimiter=',', dtype=str)  # Read everything as string
-    print("Initial DataFrame:")
-    print(df.head())  # Debugging output
+def match_names(input_dir, output_file):
+    # Refined regex patterns to match the symbols with specific requirements
+    t_asterisk_pattern = re.compile(r'^[tT]\*{1,3}\s*', re.IGNORECASE)  # t* to t***
+    t_bullet_pattern = re.compile(r'^[tT][\u00B7\u2022]{1,3}\s*', re.IGNORECASE)  # t• to t•••
+    t_dot_pattern = re.compile(r'^[tT][\u00B7\u2022\u00B7]{1,3}\s*', re.IGNORECASE)  # t· to t···
 
-    if df.empty:
-        print("Error: The CSV file appears to be empty or incorrectly formatted.")
-        return
+    # Plus patterns
+    plus_asterisk_pattern = re.compile(r'^[\+]\*{0,3}\s*', re.IGNORECASE)  # +* to +***
+    plus_bullet_pattern = re.compile(r'^[\+][\u00B7\u2022]{0,3}\s*', re.IGNORECASE)  # +• to +•••
+    plus_dot_pattern = re.compile(r'^[\+][\u00B7\u2022\u00B7]{0,3}\s*', re.IGNORECASE)  # +· to +···
 
-    # Normalize column names
-    df.columns = df.columns.str.strip()
-    df = df.dropna(subset=['Year', 'Name'])  # Drop rows with missing values
+    # Dagger patterns
+    dagger_asterisk_pattern = re.compile(r'^[\u2020]\*{0,3}\s*', re.IGNORECASE)  # †* to †***
+    dagger_bullet_pattern = re.compile(r'^[\u2020][\u00B7\u2022]{0,3}\s*', re.IGNORECASE)  # †• to †•••
+    dagger_dot_pattern = re.compile(r'^[\u2020][\u00B7\u2022\u00B7]{0,3}\s*', re.IGNORECASE)  # †· to †···
 
-    cleaned_data = []
-    
-    # Unicode-based regex patterns
-    plus_pattern = re.compile(r'^\u002B[\*]{0,3}\s*', re.UNICODE)  # + symbol
-    dagger_pattern = re.compile(r'^\u2020[\*]{0,3}\s*', re.UNICODE)  # † symbol
-    t_pattern = re.compile(r'^\bt\*{1,3}\s*', re.IGNORECASE)  # t with * variations
+    matched_data = []
 
-    for _, row in df.iterrows():
-        year = row['Year'].strip()
-        name = row['Name'].strip()
+    # Walk through all files in the directory
+    for root, _, files in os.walk(input_dir):
+        for file in files:
+            if file.endswith('.txt'):  # Process only text files
+                file_path = os.path.join(root, file)
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    lines = f.readlines()
 
-        # Remove Unicode-based prefixes
-        cleaned_name = re.sub(plus_pattern, '', name)
-        cleaned_name = re.sub(dagger_pattern, '', cleaned_name)
-        cleaned_name = re.sub(t_pattern, '', cleaned_name)
+                    # Process each line to check for pattern matches
+                    for line in lines:
+                        line = line.strip()
 
-        print(f"Processing: Year = {year}, Name = {cleaned_name}")  # Debugging output
+                        # Skip lines containing "honors"
+                        if 'honors' in line.lower():
+                            continue
 
-        if not year or not cleaned_name:
-            continue  # Skip rows with missing data
-        
-        cleaned_data.append((year, cleaned_name))
-    
-    # Convert cleaned data to DataFrame
-    cleaned_df = pd.DataFrame(cleaned_data, columns=['Year', 'Name'])
-    
-    # Save to CSV
-    if cleaned_df.empty:
-        print("Warning: No data was processed. Check the input format.")
+                        # Remove excess whitespace to ensure matching (ignore extra spaces)
+                        line = re.sub(r'\s+', ' ', line)
+
+                        # Extract year from filename
+                        year_match = re.match(r'(\d{4})', file)
+                        if year_match:
+                            year = year_match.group(1)
+
+                            # Find all matches for the patterns in the line
+                            matches = []
+                            for match in re.finditer(t_asterisk_pattern, line):
+                                matches.append(match.group(0))
+                            for match in re.finditer(t_bullet_pattern, line):
+                                matches.append(match.group(0))
+                            for match in re.finditer(t_dot_pattern, line):
+                                matches.append(match.group(0))
+
+                            for match in re.finditer(plus_asterisk_pattern, line):
+                                matches.append(match.group(0))
+                            for match in re.finditer(plus_bullet_pattern, line):
+                                matches.append(match.group(0))
+                            for match in re.finditer(plus_dot_pattern, line):
+                                matches.append(match.group(0))
+
+                            for match in re.finditer(dagger_asterisk_pattern, line):
+                                matches.append(match.group(0))
+                            for match in re.finditer(dagger_bullet_pattern, line):
+                                matches.append(match.group(0))
+                            for match in re.finditer(dagger_dot_pattern, line):
+                                matches.append(match.group(0))
+
+                            # If there are multiple matches, split the line at each match
+                            if matches:
+                                for match in matches:
+                                    start_idx = line.find(match)  # Find the match start point
+                                    # Append the full line first
+                                    matched_data.append((year, line.strip()))
+                                    # Append the portion after the match
+                                    matched_data.append((year, line[start_idx:].strip()))
+
+    # Convert matched data to DataFrame
+    matched_df = pd.DataFrame(matched_data, columns=['Year', 'Matched Line'])
+
+    # Remove duplicate rows
+    matched_df = matched_df.drop_duplicates()
+
+    # Save to a new CSV file (output file will be overwritten if it already exists)
+    if matched_df.empty:
+        print("Warning: No matching lines found. Check the input format.")
     else:
-        cleaned_df.to_csv(output_file, index=False)
-        print(f"Cleaned data saved to {output_file}")
+        matched_df.to_csv(output_file, index=False)
+        print(f"Matching lines saved to {output_file}")
+    
+    # Print the length of the matched data
+    print(f"Total number of matching lines (after removing duplicates): {len(matched_df)}")
 
 # File paths
-input_file = 'names_by_year.csv'  # Ensure this file exists
-output_file = 'honors_graduates.csv'
+input_dir = '../pdf_ingest/parsed_pdfs/text_files'  # Directory containing text files
+output_file = 'matching_lines.csv'  # Output CSV file for new results
 
-# Run the cleaning function
-clean_names(input_file, output_file)
+# Run the function
+match_names(input_dir, output_file)
