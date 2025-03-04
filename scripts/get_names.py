@@ -5,10 +5,9 @@ import re
 def match_and_count_lines(input_dir, output_file, append=False):
     """
     Extracts lines containing:
-    - 't' followed by 1-3 bullets/middle dots
-    - '†' (cross) followed by 1-3 bullets/middle dots
-    - '+' followed by 1-3 bullets/middle dots
-    - '*' followed by 1-3 bullets/middle dots
+    - 't' followed by 1-3 bullets/middle dots/* (star)
+    - '†' (cross) followed by 0-3 bullets/middle dots/* (star)
+    - '+' followed by 0-3 bullets/middle dots/* (star)
 
     Saves the matching lines and prints a count summary.
     """
