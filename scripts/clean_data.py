@@ -1,4 +1,4 @@
-input_file = "matching_lines.csv"
+input_file = "../output/matching_lines.csv"
 output_file = input_file  # Overwrite the original file
 
 # Read the file and remove duplicate lines

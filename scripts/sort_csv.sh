@@ -1,1 +1,1 @@
-(head -n 1 ../output/names_by_year.csv && tail -n +2 ../output/names_by_year.csv | sort -t, -k2 -n) > temp.csv && mv temp.csv ../output/names_by_year.csv
+(head -n 1 ../output/matching_lines.csv && tail -n +2 ../output/matching_lines.csv | sort -t, -k2 -n) > temp.csv && mv temp.csv ../output/matching_lines.csv

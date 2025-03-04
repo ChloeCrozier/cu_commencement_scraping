@@ -36,9 +36,9 @@ def write_results(results, output_filename):
         writer.writerows(results)
 
 if __name__ == "__main__":
-    matching_lines_file = 'matching_lines.csv'
+    matching_lines_file = '../output/matching_lines.csv'
     names_by_year_file = '../output/honors_graduates.csv'
-    output_file = 'year_comparison_sorted.csv'
+    output_file = '../output/year_comparison_sorted.csv'
 
     matching_lines_counts = count_years(matching_lines_file)
     names_by_year_counts = count_years(names_by_year_file)
