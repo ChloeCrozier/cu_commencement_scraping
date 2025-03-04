@@ -13,7 +13,7 @@ def match_and_count_lines(input_dir, output_file, append=False):
     """
     # Unicode-friendly regex for required patterns (searching anywhere in the line)
     pattern = re.compile(
-        r'(?:t[\*\u2022\u00B7]{1,3}|[\u2020\+][\*\u2022\u00B7]{0,3})',
+        r'(?:t[\u2022\u00B7]{1,3}|[\u2020\+][\u2022\u00B7]{1,3})',
         re.UNICODE
     )
 
