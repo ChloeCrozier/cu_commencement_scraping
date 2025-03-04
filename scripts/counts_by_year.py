@@ -37,7 +37,7 @@ def write_results(results, output_filename):
 
 if __name__ == "__main__":
     matching_lines_file = 'matching_lines.csv'
-    names_by_year_file = '../output/names_by_year.csv'
+    names_by_year_file = '../output/honors_graduates.csv'
     output_file = 'year_comparison_sorted.csv'
 
     matching_lines_counts = count_years(matching_lines_file)
